@@ -1,0 +1,6 @@
+import random
+
+def gen_emoji():
+    # Lista de emojis divertidos para sortear
+    emojis = ["😀", "🚀", "🐱", "🍕", "🎉", "🔥", "💻", "🤖", "⭐", "🥑"]
+    return random.choice(emojis)
